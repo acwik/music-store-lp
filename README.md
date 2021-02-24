@@ -1,4 +1,4 @@
-#Music Store Landing Page
+# _Music Store Landing Page_
 
 Music store landing page redesign for Geartree.com.
 
