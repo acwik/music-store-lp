@@ -1,0 +1,144 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+
+
+body {
+  padding-top: 56px;
+  background-color: rgb(249, 249, 249); /*Change background color of page*/
+}
+
+/*Header under navbar styles*/
+header {  
+  background-color:#82BD4C;
+  color:#F9F9F9;
+  text-align: center;
+  font-size: .8rem;
+}
+
+footer {
+  background-color:black;
+  color:#82BD4C;	
+}
+
+.sticky-top {
+  top: 78px;
+}
+
+/*Background image of navbar*/
+.navbar {
+	background-image: url(https://res.cloudinary.com/reverb-sites/image/upload/t_nav-header/tuyhmvn5zos6dskme7su.png);
+}
+
+/*Banner image under header and navbar*/
+.banner img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/*Category banner image under navbar*/
+.category-banner img {
+	margin-bottom: 1rem;
+	max-width: 100%;
+	width: 100%;
+	height: auto;	
+}
+
+.carousel-item img {
+ /* widows: 900px;
+  height: 350px;*/
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-indicators li {
+	background-color: #82BD4C;
+}
+
+.newarrivals {
+	color: white;
+	background-color:#82BD4C;
+	text-align: center;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.about {
+	background-color: white;
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 1rem;
+}
+
+.reverbshop {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 2rem;
+}
+
+.reverb-embedded-listings {
+    list-style-type: none !important;
+    float: left;
+	  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+  }
+  .reverb-embedded-listing {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 1px #f9f9f9;
+    width: 10rem;
+    height: auto;
+	  float: left;
+    margin-bottom: 1.5rem; /*Deleted right margin for better alignment */
+    font-family: "Arial", "Verdana", sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+  }
+  .reverb-embedded-listing a {
+    text-decoration: none;
+    color: #0080a5;
+  }
+  .reverb-embedded-listing-info {
+    border-top: 0.25rem solid #82BD4C;
+    padding: 0.5rem;
+    height: 7.5rem;
+    background-color: black;
+  }
+  .reverb-embedded-listing-title {
+    display: block;
+    max-height: 7.5rem;
+    color: white;
+    font-size: 0.75rem;
+   	font-weight: bold;
+    overflow: hidden;
+  }
+  .reverb-embedded-listing-price {
+    position: absolute;
+    padding: 0.75rem;
+    top: 0;
+    right: 0;
+    font-size: 0.75rem;
+    font-weight: bold;
+    background-color: #82BD4C;
+    color: white;
+    opacity: 0.9;
+  }
+  .reverb-embedded-listing img {
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    width: 100%;
+  }
+  .reverb-embedded-listing img:hover { opacity: 0.85; }
+
+.clearfix::after {
+    display: none;    
+}
